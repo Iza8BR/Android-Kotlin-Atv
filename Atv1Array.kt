@@ -11,5 +11,23 @@ fun main() {
     } 
     println("A soma de todos os numeros é $soma.")
     
+    } 
+
+
+fun main() {
+    println("Criador de arrays!!!!")
+    var nomes = arrayOfNulls<String>(5)
+   
+    for (i in nomes.indices) {
+        println("Por favor, digite o ${i+1}º nome!!")
+        nomes[i] = readLine()
     }
+   
+    nomes.sort()
+   
+    println("Organizamos seus nomes :D")
+    for (nome in nomes) {
+        println(nome)
+    }
+} */ codigo pra criar umas lista de nomes em ordem crescente.
     
